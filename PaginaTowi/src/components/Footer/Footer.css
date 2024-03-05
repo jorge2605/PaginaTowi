@@ -1,0 +1,23 @@
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #ffffff;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    justify-items: center;
+    font-family: 'Lexend';
+}
+
+.servicios{
+    width: 30%;
+    justify-self: end;
+}
+
+.footer span{
+    justify-self: left;
+    align-self: center;
+}
